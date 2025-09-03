@@ -72,7 +72,7 @@ public class GenerarPdfSvl extends HttpServlet {
             Paragraph title = new Paragraph("REPORTE DE PROGRAMAS DE FORMACIÓN", TITLE_FONT);
             title.setAlignment(Element.ALIGN_CENTER);
             title.setSpacingAfter(20);
-            title.getFont().setColor(BaseColor.GREEN);
+            title.getFont().setColor(BaseColor.PINK);
             document.add(title);
             
             // Crear tabla con 6 columnas

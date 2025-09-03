@@ -203,7 +203,7 @@
                 <small>Sistema operativo: <%= System.getProperty("os.name") %></small>
             </div>
         </div>
-    </div>
+    </div> 
     
     <!-- Footer -->
     <div class="footer">

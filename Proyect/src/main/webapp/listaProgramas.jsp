@@ -175,10 +175,10 @@ if (keyword != null && !keyword.isEmpty()) {
                     <td><%= programa.getHoras() %></td>
                     <td class="action-buttons">
                         <a href="programasSvl?action=editar&codigo=<%= programa.getCodigoprograma() %>" 
-                           class="btn btn-editar">✏️ Editar</a>
+                           class="btn btn-editar">✏️ </a>
                         <a href="programasSvl?action=eliminar&codigo=<%= programa.getCodigoprograma() %>" 
                            class="btn btn-eliminar" 
-                           onclick="return confirm('¿Está seguro de eliminar el programa <%= programa.getNombreprograma() %>?')">🗑️ Eliminar</a>
+                           onclick="return confirm('¿Está seguro de eliminar el programa <%= programa.getNombreprograma() %>?')">🗑️ </a>
                     </td>
                 </tr>
                 <% 

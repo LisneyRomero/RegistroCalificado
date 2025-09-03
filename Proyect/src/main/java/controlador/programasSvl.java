@@ -133,7 +133,7 @@ public class programasSvl extends HttpServlet {
 	            response.sendRedirect(request.getContextPath() + "/programasSvl?action=listar");
 	            try {
 	            	
-	            	enviarCorreo.EnviarCorreo("Actualización de lista", "Se ha añadido un nuevo programa de formación");//notificacion 
+	            	enviarCorreo.EnviarCorreo("Actualización de lista", "Se ha añadido un nuevo programa de formación");//notificacion al correo
 					
 				} catch (MessagingException e) {
 					
